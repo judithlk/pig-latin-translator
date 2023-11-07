@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap');
+
+body {
+    padding: 1%;
+    margin: 0;
+    background-color:   #C84B31;
+}
+
+.wrapper {
+    margin: 0;
+    /* height: 100vh; */
+    padding-top: 2%;
+    padding-bottom: 2.5%;
+    background-color: #ECDBBA;
+}
+
+.header-box {
+    text-align: center;
+    /* min-height: 20vh; */
+}
+
+#header-text {
+    font-size: 9vw;
+    margin-top: 1vh;
+    font-family: 'Caveat', cursive;
+    color: #346751;
+}
+
+.form-container {
+    padding-top: 8%;
+}
+
+.form-box {
+    padding: 4%;
+}
+
+.show-box-container {
+    padding: 4%;
+}
+
+#show-box {
+    /* border: 1px solid grey; */
+    min-height: 18vh;
+    padding: 1.5%;
+    font-size: 1.5em;
+    cursor: text;
+    background-color: white;
+    font-family: 'PT Serif', serif;
+    border:#346751 1px solid;
+    border-radius: 0;
+}
+
+.input-field {
+    padding: 2%;
+    font-size: 1.5em;
+    font-family: 'PT Serif', serif;
+    min-width: 100%;
+    margin-bottom: 4%;
+    height: 18vh;
+    resize: none;
+    border: none;
+    background-color: white;
+    border:#346751 1px solid;
+    border-radius: 0;
+}
+
+.input-field:focus {
+    border-radius: 0;
+    outline: none;
+    /* border: none; */
+    /* background-color: aliceblue; */
+}
+
+.button {
+    border: none;
+    padding: 1% 2%;
+    margin-left: 1%;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+}
+
+.button:hover {
+    background-color: #346751;
+    color: white;
+}
+
+.info-box {
+    padding: 5%;
+    /* border: 1px solid blue; */
+    font-size: 1.3em;
+    font-family: 'PT Serif', serif;
+}
+
+a {
+    color: #C84B31;
+}
+
+@media screen and (min-width: 600px) {
+    #header-text {
+        font-size: 6vw;
+    }
+
+    .form-container {
+        padding-top: 3%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #header-text {
+        font-size: 4vw;
+    }
+}
